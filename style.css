@@ -1,0 +1,122 @@
+body{
+    font-family: calibri;
+    font-size: 15px;
+    background-color: green;
+}
+
+#competences{
+    margin-top: 0px;
+}
+
+#competences ul{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    list-style-type: none;
+}
+
+#competences li{
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    color: greenyellow;
+    background-color: white;
+    width:  220px;
+}
+
+#competences a{
+    display: block;
+    width: 220px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-family: tahoma;
+}
+
+#competences li ul{
+    position: absolute;
+    left: -5000px;
+}
+
+#competences li:hover > ul{
+    left: 0px;
+}
+
+#competences a:hover{
+    color: green;
+    background-color: white;
+}
+
+#sary{
+    margin-left: 47%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#nom{
+    color: green;
+    font-family: kristen itc;
+}
+
+#grandfield{
+    width: 1200px;
+    margin:  0px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid green;
+    background-color: white;;
+}
+
+#lava{
+    margin-top: 120px;
+    color: rgb(121, 121, 121);
+    font-size: 17px;
+    font-family: calibri;
+}
+
+#petitfield{
+    border-radius: 10px;
+    border: 2px solid green;
+    margin-top: 10px;
+}
+
+#ISPM{
+    color: green;
+}
+
+#Contact{
+    color: white;
+}
+
+#fb{
+    color: white;
+}
+
+#link{
+    text-decoration: none;
+    font-family: tahoma;
+}
+
+#Mail{
+    color: white;
+}
+
+#copy{
+    position:relative;
+    color: white;   
+    font-size: 15px;
+    top: 120px;
+}
+
+#cont{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 250px;
+    align: center;
+    margin: 0px 0px 0px 750px;
+    height: 100px;
+}
